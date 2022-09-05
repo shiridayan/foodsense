@@ -1,0 +1,286 @@
+@import url(./_reset.css);
+@import url(./_base.css);
+@import url(./_typography.css);
+/* 
+* Add your own CSS code below... 
+*/
+html{
+     /* border:red 2px dashed;  */
+    font-size: 10px;
+}
+body{
+     /* border:blue 2px dashed;  */
+    font-family: Open Sans;
+    font-size: 1.6rem;
+}
+
+h1,h2,h3{
+    font-family: Lobster;
+}
+
+.wrapper{
+    margin: 0 auto;
+    /* border: 1px goldenrod solid; */
+    max-width: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo__nav__box{
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.main__nav-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+}
+
+.main__nav-bottom-line {
+    border:0.8px;
+    background-color: 1px solid lightgray;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.social__event{
+    display: none;
+
+ 
+} 
+
+.logo__icon{
+    border-radius: 50%;
+    margin: 5px;
+
+}
+
+.logo{
+    order: 1;
+} 
+
+
+
+ .main__wrapper{
+    display: flex;
+     /* border: purple 2px solid; */
+    margin-top: 1rem;
+    flex-basis: 100%;
+    flex-direction: column;
+    
+}
+ .main_wrapper_photo
+ {
+    display: flex;
+    width: 100%;
+ }
+
+
+
+ .subcribe{
+    width: 100%;
+    margin-top: 29px;
+    padding: 1rem 5rem;
+    border-top: 1px dashed lightgray;
+    border-bottom: 1px dashed lightgray;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .subsctibe form input{
+    width: 50%;
+    font-size: 2rem;
+    margin-right: 1rem;
+    margin-left: 0.6rem;
+ }
+
+ .subcribe i{
+    padding: 0.5 rem;
+    font-size: 2em;
+    color: grey;
+    margin-right: 1rem;
+    margin-left: -32rem;
+    position: relative;
+    top:10px;
+ 
+
+ }
+
+ .subcribe p{
+    padding: 1rem;
+    line-height: 1.8rem;
+    position: relative;
+    top:-35px;
+
+ }
+
+ .fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+
+ }
+
+ .fa-3x{
+    font-size: 3em;
+ }
+
+ .subcribe div{
+    display: flex;
+ }
+
+
+.subcribe button{
+    border: gray 1px solid;
+    width:70px;
+    background-color:azure;
+    margin-top: 5px;    
+    display: flex;
+    position: relative;
+    top: -56px;
+    right: -88px;
+    align-items: center;
+    padding: 5px;
+    height: 5remx;
+
+}
+
+.subcribe input{
+    border: gray 1px solid;
+    display: flex;
+    position: relative;
+    top: -24px;
+    right: 94px;
+    font-size: 13px;
+    padding: 5px;
+    width: 175px;
+    height: 5remx;
+
+
+}
+.featured-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 4rem;
+}
+
+.featured-content__item{
+    /* border: fuchsia 1px solid; */
+    padding: 2rem 6rem;
+}
+
+.content-item_body{
+    font-size: 1.6rem;
+}
+
+.fc-item__img-box{
+    width: 100%;
+}
+
+.fc-item__img{
+
+        width: 100%;
+        height: 21rem; 
+        height: auto;  
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+.fc-item__body {
+    font-size: 1.6rem;
+}
+
+.fc-item__title{
+    margin: 1rem 0;
+    font-size: 2.8 rem;
+}
+
+
+.footer{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 1.6rem;
+}
+.footer-item{
+    flex:1;
+}
+.footer__legal-links{
+    flex:2;
+}
+.footer__social-links{
+    text-align: right;
+    color: #999;
+    font-size: 1rem;
+}
+.footer__social-links>*{
+    padding-left: .6rem;
+}
+
+.second-nav ul{
+    display: none;
+}
+.main__nav1-item{
+    padding: .6rem;
+    flex:1;
+    background-color: #D9EFEC;
+    border-right:  1px solid #bbded9;
+    border-left: 1px solid white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__nav1-item:hover{
+    background-color: #ace3dc;
+}
+.main__nav1-item:active{
+    background-color: #67cbbe;
+}
+.main__nav1-item:first-child{
+    border-left: 0;
+}
+.main__nav1-item:last-child{
+    border-right: 0;
+}
+.main__nav1-item-link{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
